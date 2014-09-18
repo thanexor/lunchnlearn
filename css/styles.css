@@ -1,0 +1,284 @@
+/*******************************************
+ *****   TITLE OF WEBSITE HERE !!!!   ******
+ -------------------------------------------
+ *written by Thane Woidan - thanewoidan.com*
+ ******************************************/
+
+/* Mini/modified version of Eric Meyer's reset -- meyerweb.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,article,aside,big,cite,code,del,details,dfn,em,figcaption,figure,footer,header,hgroup,img,ins,kbd,nav,q,samp,section,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline;}:focus{outline: 0;}img{-ms-interpolation-mode: bicubic;}body{line-height: 1;}table{border-spacing: 0;}caption,th,td{text-align: left; font-weight: normal;}blockquote:before,blockquote:after,q:before,q:after{content: "";}blockquote,q{quotes: "" "";}
+
+/**************
+	BASICS
+**************/
+
+html,
+body {
+	width: 100%;
+	
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+/* BASE FONT SIZE */
+body {
+	background: none #E6E6E6;
+	font-size: 13px;
+}
+
+/* BASE FONT FAMILY and COLOR -- FORM ELEMENTS CAN HAVE INHERITANCE ISSUES */
+body, button, input, select, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+/* DEFAULT MARGIN FOR BLOCK LEVEL CONTENT ELEMENTS */
+address, blockquote, code, figure, dl, ol, ul, p, pre, table {
+	margin: 0 0 1em;
+	line-height: 1.35em;
+}
+
+/* DISPLAY BLOCK OF HTML5 ELEMENTS */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 .35em;
+	font-weight: bold;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	line-height: 115%;
+}
+
+h1 {
+	font-size: 2.25em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1.20em;
+}
+
+h5 {
+	font-size: 1.15em;
+}
+
+h6 {
+	font-size: 1em;
+	color: #666;
+	padding-bottom: 3px;
+	border-bottom: 1px dotted #333;
+}
+
+/* vertically space headings from block-level content elements */
+address+h1, blockquote+h1, code+h1, figure+h1, dl+h1, ol+h1, ul+h1, p+h1, pre+h1, table+h1,
+address+h2, blockquote+h2, code+h2, figure+h2, dl+h2, ol+h2, ul+h2, p+h2, pre+h2, table+h2,
+address+h3, blockquote+h3, code+h3, figure+h3, dl+h3, ol+h3, ul+h3, p+h3, pre+h3, table+h3,
+address+h4, blockquote+h4, code+h4, figure+h4, dl+h4, ol+h4, ul+h4, p+h4, pre+h4, table+h4,
+address+h5, blockquote+h5, code+h5, figure+h5, dl+h5, ol+h5, ul+h5, p+h5, pre+h5, table+h5,
+address+h6, blockquote+h6, code+h6, figure+h6, dl+h6, ol+h6, ul+h6, p+h6, pre+h6, table+h6 {
+	margin-top: 1em;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dotted #BBB;
+	margin: 1.25em 0;
+	clear: both;
+}
+
+ol, ul {
+	list-style-position: outside;
+	padding-left: 2.5em;
+}
+
+nav ol, nav ul {
+	list-style: outside none;
+	padding: 0;
+}
+
+ol.nobull, ul.nobull {
+	list-style: outside none;
+	padding-left: 0;
+}
+
+ol.nobull > li, ul.nobull > li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ol.insidebull, ul.insidebull {
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+ol.lz {
+	list-style-type: decimal-leading-zero;
+}
+
+li {
+	margin-bottom: .25em;
+	margin-left: .25em;
+	padding-left: .25em;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol ul, ul ul {
+	list-style-type: circle;
+	margin-bottom: 0;
+	padding-left: 2.5em;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul ol, ol ol {
+	list-style-type: lower-roman;
+	padding-left: 2.5em;
+}
+
+b, strong, .bold {
+	font-weight: bold;
+}
+
+i, em, .italic {
+	font-style: italic;
+}
+
+pre, code {
+	background: none repeat scroll 0 0 #FFFBEF;
+	border: 1px dotted #CCCCCC;
+	color: #000000;
+	font-family: monospace;
+	text-shadow: 1px 1px 1px #BBBBBB;
+}
+
+address {
+	font-style: inherit;
+}
+
+pre {
+	display: block;
+	line-height: 125%;
+	margin: 15px;
+	padding: 15px;
+}
+
+blockquote {
+	padding: .75em 0 .5em 1.25em;
+	border-left: 1px solid #CCC;
+	font-style: italic;
+}
+
+blockquote p {
+	font-size: 1.25em;
+	line-height: 140%;
+	color: #777;
+}
+
+blockquote cite {
+	font-size: .9em;
+	color: #444;
+}
+
+blockquote cite:before {
+	content: "\2014\0020";
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+	
+sup {
+	top: -0.5em;
+}
+	
+sub {
+	bottom: -0.25em;
+}
+
+small {
+	font-size: .85em;
+}
+
+a {
+	text-decoration: none;
+	color: #6699CC;
+	cursor: pointer;
+}
+
+a:hover,
+a:active {
+	color: #FF512F;
+	outline: 0;
+	text-decoration: underline;
+}
+
+/* selected text */
+::selection {
+	background: none #336699;
+	color: #FFF;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: none #336699;
+	color: #FFF;
+	text-shadow: none;
+}
+
+.clear {
+	clear: both;
+}
+
+/**************
+	CONTAINERS
+**************/
+.main {
+	width: 100%;
+	max-width: 960px;
+	min-width: 672px;
+	margin: 0 auto;
+	background: none #FFF;
+}
+
+/**************
+	SITE CONTENT
+**************/
+.block {
+	padding: 20px;
+	font-size: 24px;
+}
+
+.short { height: 150px; }
+.med   { height: 300px; }
+.tall  { height: 600px; }
+
+.skinny {
+	background: #ffcccc;
+	width: 20%;
+}
+
+.athletic {
+	background: #ccffcc;
+	width: 60%;
+}
+
+.fatty {
+	background: #ccccff;
+	width: 100%;
+}
